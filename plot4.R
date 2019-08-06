@@ -19,7 +19,7 @@ volt <- as.numeric(power$Voltage)
 dev.copy(png, file = "Plot4.png", width = 480, height = 480)
 
 #Create parameters to enable multiple plots
-par(mfrow = c(2, 2), )
+par(mfrow = c(2, 2), mar = c(2, 1, 1, 2 )
 
 #Create multiple plots
 plot(dateTime, as.numeric(power$Global_active_power), type = "l",
